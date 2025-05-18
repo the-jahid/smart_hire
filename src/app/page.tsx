@@ -58,7 +58,7 @@ const welcomeMessages: Record<string, string> = {
 
 const templateSuggestions: Record<string, { icon: string; text: string }[]> = {
   en: [
-    { icon: "🏢", text: "Working at Ooredoo" },
+    { icon: "🏢", text: "Working at smart hire" },
     { icon: "📋", text: "Available vacancies" },
     { icon: "☎️", text: "Contact us" },
   ],
@@ -68,47 +68,47 @@ const templateSuggestions: Record<string, { icon: string; text: string }[]> = {
     { icon: "☎️", text: "اتصل بنا" },
   ],
   fr: [
-    { icon: "🏢", text: "Travailler chez Ooredoo" },
+    { icon: "🏢", text: "Travailler chez smart hire" },
     { icon: "📋", text: "Postes vacants disponibles" },
     { icon: "☎️", text: "Contactez-nous" },
   ],
   pt: [
-    { icon: "🏢", text: "Trabalhar na Ooredoo" },
+    { icon: "🏢", text: "Trabalhar na smart hire" },
     { icon: "📋", text: "Vagas disponíveis" },
     { icon: "☎️", text: "Contate-nos" },
   ],
   nl: [
-    { icon: "🏢", text: "Werken bij Ooredoo" },
+    { icon: "🏢", text: "Werken bij smart hire" },
     { icon: "📋", text: "Beschikbare vacatures" },
     { icon: "☎️", text: "Neem contact met ons op" },
   ],
   es: [
-    { icon: "🏢", text: "Trabajar en Ooredoo" },
+    { icon: "🏢", text: "Trabajar en smart hire" },
     { icon: "📋", text: "Vacantes disponibles" },
     { icon: "☎️", text: "Contáctanos" },
   ],
   it: [
-    { icon: "🏢", text: "Lavorare in Ooredoo" },
+    { icon: "🏢", text: "Lavorare in smart hire" },
     { icon: "📋", text: "Posizioni aperte disponibili" },
     { icon: "☎️", text: "Contattaci" },
   ],
   zh: [
-    { icon: "🏢", text: "在Ooredoo工作" },
+    { icon: "🏢", text: "在smart hire工作" },
     { icon: "📋", text: "可用职位空缺" },
     { icon: "☎️", text: "联系我们" },
   ],
   ja: [
-    { icon: "🏢", text: "Ooredooで働く" },
+    { icon: "🏢", text: "smart hireで働く" },
     { icon: "📋", text: "現在の求人情報" },
     { icon: "☎️", text: "お問い合わせ" },
   ],
   hi: [
-    { icon: "🏢", text: "Ooredoo में काम करना" },
+    { icon: "🏢", text: "smart hire में काम करना" },
     { icon: "📋", text: "उपलब्ध रिक्तियाँ" },
     { icon: "☎️", text: "संपर्क करें" },
   ],
   ko: [
-    { icon: "🏢", text: "Ooredoo에서 근무하기" },
+    { icon: "🏢", text: "smart hire에서 근무하기" },
     { icon: "📋", text: "채용 공고" },
     { icon: "☎️", text: "문의하기" },
   ],
