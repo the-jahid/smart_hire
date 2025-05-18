@@ -669,8 +669,8 @@ export default function ChatInterface() {
         <div className="">
           <div className="flex items-center justify-between p-4 border-b border-gray-200   ">
             <div className="flex justify-center items-center ml-4 ">
-              <Image src="https://assets.aceternity.com/logo-dark.png" alt="logo" width={30} height={30} />
-              <div className=" font-semibold">Aria</div>
+              
+              <div className=" font-semibold">Smart Hire</div>
             </div>
 
             <div className="flex items-center gap-2">
