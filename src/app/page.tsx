@@ -42,19 +42,20 @@ const languages: Language[] = [
 
 // Welcome messages in different languages
 const welcomeMessages: Record<string, string> = {
-  ar: "مرحبًا، أنا آريا، مساعدك الشخصي للتقديم للجامعات. كيف يمكنني مساعدتك في العثور على الجامعة والبرنامج المناسب لك؟",
-  en: "Hello, I'm Aria, your personal university application assistant. How can I help you find the right university and program for you?",
-  fr: "Bonjour, je suis Aria, votre assistant personnel pour les candidatures universitaires. Comment puis-je vous aider à trouver l'université et le programme qui vous conviennent ?",
-  pt: "Olá, eu sou Aria, seu assistente pessoal para candidaturas universitárias. Como posso ajudá-lo a encontrar a universidade e o programa certos para você?",
-  nl: "Hallo, ik ben Aria, je persoonlijke assistent voor universitaire aanmeldingen. Hoe kan ik je helpen bij het vinden van de juiste universiteit en het juiste programma voor jou?",
-  fa: "سلام، من آریا هستم، دستیار شخصی شما برای درخواست دانشگاه. چگونه می‌توانم به شما در یافتن دانشگاه و برنامه مناسب کمک کنم؟",
-  es: "Hola, soy Aria, tu asistente personal para solicitudes universitarias. ¿Cómo puedo ayudarte a encontrar la universidad y el programa adecuados para ti?",
-  it: "Ciao, sono Aria, il tuo assistente personale per le domande universitarie. Come posso aiutarti a trovare l'università e il programma giusti per te?",
-  zh: "你好，我是Aria，你的大学申请个人助手。我能如何帮助你找到适合你的大学和专业？",
-  ja: "こんにちは、私はアリアです。あなたの大学出願パーソナルアシスタントです。あなたに合った大学とプログラムを見つけるお手伝いをどのようにできますか？",
-  hi: "नमस्ते, मैं आरिया हूँ, आपका विश्वविद्यालय आवेदन व्यक्तिगत सहायक। मैं आपको सही विश्वविद्यालय और कार्यक्रम खोजने में कैसे मदद कर सकता हूँ?",
-  ko: "안녕하세요, 저는 아리아입니다. 대학 지원을 위한 개인 비서입니다. 적합한 대학과 프로그램을 찾는 데 어떻게 도와드릴까요?",
+  ar: "مرحبًا، أنا Smart Hire، مساعدك الشخصي للتقديم للجامعات. كيف يمكنني مساعدتك في العثور على الجامعة والبرنامج المناسب لك؟",
+  en: "Hello, I'm Smart Hire, your personal university application assistant. How can I help you find the right university and program for you?",
+  fr: "Bonjour, je suis Smart Hire, votre assistant personnel pour les candidatures universitaires. Comment puis-je vous aider à trouver l'université et le programme qui vous conviennent ?",
+  pt: "Olá, eu sou Smart Hire, seu assistente pessoal para candidaturas universitárias. Como posso ajudá-lo a encontrar a universidade e o programa certos para você?",
+  nl: "Hallo, ik ben Smart Hire, je persoonlijke assistent voor universitaire aanmeldingen. Hoe kan ik je helpen bij het vinden van de juiste universiteit en het juiste programma voor jou?",
+  fa: "سلام، من Smart Hire هستم، دستیار شخصی شما برای درخواست دانشگاه. چگونه می‌توانم به شما در یافتن دانشگاه و برنامه مناسب کمک کنم؟",
+  es: "Hola, soy Smart Hire, tu asistente personal para solicitudes universitarias. ¿Cómo puedo ayudarte a encontrar la universidad y el programa adecuados para ti?",
+  it: "Ciao, sono Smart Hire, il tuo assistente personale per le domande universitarie. Come posso aiutarti a trovare l'università e il programma giusti per te?",
+  zh: "你好，我是Smart Hire，你的大学申请个人助手。我能如何帮助你找到适合你的大学和专业？",
+  ja: "こんにちは、私はSmart Hireです。あなたの大学出願パーソナルアシスタントです。あなたに合った大学とプログラムを見つけるお手伝いをどのようにできますか？",
+  hi: "नमस्ते, मैं Smart Hire हूँ, आपका विश्वविद्यालय आवेदन व्यक्तिगत सहायक। मैं आपको सही विश्वविद्यालय और कार्यक्रम खोजने में कैसे मदद कर सकता हूँ?",
+  ko: "안녕하세요, 저는 Smart Hire입니다. 대학 지원을 위한 개인 비서입니다. 적합한 대학과 프로그램을 찾는 데 어떻게 도와드릴까요?",
 }
+
 
 const templateSuggestions: Record<string, { icon: string; text: string }[]> = {
   en: [
