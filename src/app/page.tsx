@@ -42,83 +42,85 @@ const languages: Language[] = [
 
 // Welcome messages in different languages
 const welcomeMessages: Record<string, string> = {
-  ar: "مرحبًا، أنا Smart Hire، مساعدك الشخصي للتقديم للجامعات. كيف يمكنني مساعدتك في العثور على الجامعة والبرنامج المناسب لك؟",
-  en: "Hello, I'm Smart Hire, your personal university application assistant. How can I help you find the right university and program for you?",
-  fr: "Bonjour, je suis Smart Hire, votre assistant personnel pour les candidatures universitaires. Comment puis-je vous aider à trouver l'université et le programme qui vous conviennent ?",
-  pt: "Olá, eu sou Smart Hire, seu assistente pessoal para candidaturas universitárias. Como posso ajudá-lo a encontrar a universidade e o programa certos para você?",
-  nl: "Hallo, ik ben Smart Hire, je persoonlijke assistent voor universitaire aanmeldingen. Hoe kan ik je helpen bij het vinden van de juiste universiteit en het juiste programma voor jou?",
-  fa: "سلام، من Smart Hire هستم، دستیار شخصی شما برای درخواست دانشگاه. چگونه می‌توانم به شما در یافتن دانشگاه و برنامه مناسب کمک کنم؟",
-  es: "Hola, soy Smart Hire, tu asistente personal para solicitudes universitarias. ¿Cómo puedo ayudarte a encontrar la universidad y el programa adecuados para ti?",
-  it: "Ciao, sono Smart Hire, il tuo assistente personale per le domande universitarie. Come posso aiutarti a trovare l'università e il programma giusti per te?",
-  zh: "你好，我是Smart Hire，你的大学申请个人助手。我能如何帮助你找到适合你的大学和专业？",
-  ja: "こんにちは、私はSmart Hireです。あなたの大学出願パーソナルアシスタントです。あなたに合った大学とプログラムを見つけるお手伝いをどのようにできますか？",
-  hi: "नमस्ते, मैं Smart Hire हूँ, आपका विश्वविद्यालय आवेदन व्यक्तिगत सहायक। मैं आपको सही विश्वविद्यालय और कार्यक्रम खोजने में कैसे मदद कर सकता हूँ?",
-  ko: "안녕하세요, 저는 Smart Hire입니다. 대학 지원을 위한 개인 비서입니다. 적합한 대학과 프로그램을 찾는 데 어떻게 도와드릴까요?",
-}
+  ar: "مرحبًا، أنا Smart Hire، مساعدك الشخصي لتقديم طلبات التوظيف. كيف يمكنني مساعدتك في العثور على الوظيفة والمنصب المناسبين لك؟",
+  en: "Hello, I'm Smart Hire, your personal job application assistant. How can I help you find the right job and position for you?",
+  fr: "Bonjour, je suis Smart Hire, votre assistant personnel pour les candidatures d'emploi. Comment puis-je vous aider à trouver l'emploi et le poste qui vous conviennent ?",
+  pt: "Olá, eu sou Smart Hire, seu assistente pessoal para candidaturas de emprego. Como posso ajudá-lo a encontrar o trabalho e a posição certos para você?",
+  nl: "Hallo, ik ben Smart Hire, je persoonlijke assistent voor sollicitaties. Hoe kan ik je helpen bij het vinden van de juiste baan en functie voor jou?",
+  fa: "سلام، من Smart Hire هستم، دستیار شخصی شما برای درخواست‌های شغلی. چگونه می‌توانم به شما در یافتن شغل و موقعیت مناسب کمک کنم؟",
+  es: "Hola, soy Smart Hire, tu asistente personal para solicitudes de empleo. ¿Cómo puedo ayudarte a encontrar el trabajo y la posición adecuados para ti?",
+  it: "Ciao, sono Smart Hire, il tuo assistente personale per le candidature di lavoro. Come posso aiutarti a trovare il lavoro e la posizione giusti per te?",
+  zh: "你好，我是Smart Hire，你的求职个人助理。我能如何帮助你找到适合你的工作和职位？",
+  ja: "こんにちは、私はSmart Hireです。あなたの就職応募パーソナルアシスタントです。あなたに合った仕事とポジションを見つけるお手伝いをどのようにできますか？",
+  hi: "नमस्ते, मैं Smart Hire हूँ, आपका नौकरी आवेदन व्यक्तिगत सहायक। मैं आपको सही नौकरी और पद खोजने में कैसे मदद कर सकता हूँ?",
+  ko: "안녕하세요, 저는 Smart Hire입니다. 구직 신청을 위한 개인 비서입니다. 적합한 직업과 포지션을 찾는 데 어떻게 도와드릴까요?"
+};
+
 
 
 const templateSuggestions: Record<string, { icon: string; text: string }[]> = {
   en: [
-    { icon: "🏢", text: "Working at smart hire" },
+    { icon: "🏢", text: "Working at our company" },
     { icon: "📋", text: "Available vacancies" },
     { icon: "☎️", text: "Contact us" },
   ],
   ar: [
-    { icon: "🏢", text: "العمل في أوريدو" },
+    { icon: "🏢", text: "العمل في شركتنا" },
     { icon: "📋", text: "الوظائف الشاغرة المتاحة" },
     { icon: "☎️", text: "اتصل بنا" },
   ],
   fr: [
-    { icon: "🏢", text: "Travailler chez smart hire" },
+    { icon: "🏢", text: "Travailler dans notre entreprise" },
     { icon: "📋", text: "Postes vacants disponibles" },
     { icon: "☎️", text: "Contactez-nous" },
   ],
   pt: [
-    { icon: "🏢", text: "Trabalhar na smart hire" },
+    { icon: "🏢", text: "Trabalhar na nossa empresa" },
     { icon: "📋", text: "Vagas disponíveis" },
     { icon: "☎️", text: "Contate-nos" },
   ],
   nl: [
-    { icon: "🏢", text: "Werken bij smart hire" },
+    { icon: "🏢", text: "Werken bij ons bedrijf" },
     { icon: "📋", text: "Beschikbare vacatures" },
     { icon: "☎️", text: "Neem contact met ons op" },
   ],
   es: [
-    { icon: "🏢", text: "Trabajar en smart hire" },
+    { icon: "🏢", text: "Trabajar en nuestra empresa" },
     { icon: "📋", text: "Vacantes disponibles" },
     { icon: "☎️", text: "Contáctanos" },
   ],
   it: [
-    { icon: "🏢", text: "Lavorare in smart hire" },
+    { icon: "🏢", text: "Lavorare nella nostra azienda" },
     { icon: "📋", text: "Posizioni aperte disponibili" },
     { icon: "☎️", text: "Contattaci" },
   ],
   zh: [
-    { icon: "🏢", text: "在smart hire工作" },
+    { icon: "🏢", text: "在我们公司工作" },
     { icon: "📋", text: "可用职位空缺" },
     { icon: "☎️", text: "联系我们" },
   ],
   ja: [
-    { icon: "🏢", text: "smart hireで働く" },
+    { icon: "🏢", text: "当社で働く" },
     { icon: "📋", text: "現在の求人情報" },
     { icon: "☎️", text: "お問い合わせ" },
   ],
   hi: [
-    { icon: "🏢", text: "smart hire में काम करना" },
+    { icon: "🏢", text: "हमारी कंपनी में काम करना" },
     { icon: "📋", text: "उपलब्ध रिक्तियाँ" },
     { icon: "☎️", text: "संपर्क करें" },
   ],
   ko: [
-    { icon: "🏢", text: "smart hire에서 근무하기" },
+    { icon: "🏢", text: "우리 회사에서 근무하기" },
     { icon: "📋", text: "채용 공고" },
     { icon: "☎️", text: "문의하기" },
   ],
   fa: [
-    { icon: "🏢", text: "کار در اوریدو" },
+    { icon: "🏢", text: "کار در شرکت ما" },
     { icon: "📋", text: "فرصت‌های شغلی موجود" },
     { icon: "☎️", text: "تماس با ما" },
   ],
 };
+
 
 export default function ChatInterface() {
   const { language, setLanguage, t } = useLanguage()
@@ -669,8 +671,14 @@ export default function ChatInterface() {
         {/* Header */}
         <div className="">
           <div className="flex items-center justify-between p-4 border-b border-gray-200   ">
-            <div className="flex justify-center items-center ml-4 ">
-              
+            <div className="flex justify-center items-center ml-4  ">
+               <Image
+                            src={"/388C10F3-3EE6-4370-A784-C70A22313ED7.png" }
+                            alt="User"
+                            width={24}
+                            height={24}
+                            className="bg-orange-500 rounded-lg mr-2"
+                          />
               <div className=" font-semibold">Smart Hire</div>
             </div>
 
@@ -738,7 +746,7 @@ export default function ChatInterface() {
                       <div className="flex justify-end">
                         <div className="w-6 h-6 rounded-full overflow-hidden mt-1">
                           <Image
-                            src={"/A12BAD7D-904C-4069-8857-7EB5268405F1.png" }
+                            src={"/388C10F3-3EE6-4370-A784-C70A22313ED7.png" }
                             alt="User"
                             width={24}
                             height={24}
